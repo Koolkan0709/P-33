@@ -4,11 +4,11 @@ const Bodies = Matter.Bodies;
 
 var snow = [];
 var snow2 = [];
-var bg, music;
+var bg;
 
 function preload(){
    bg = loadImage("snowbg.jpg");
-   music = loadSound("cheeryMusic.mp3");
+   //music = loadSound("cheeryMusic.mp3");
 }
 
 function setup() {
